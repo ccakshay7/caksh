@@ -3,4 +3,5 @@ BEGIN
 	loop
 		dbms_output.put_line(i);
 	end loop;
+	dbms_output.put_line("Test");
 END;
